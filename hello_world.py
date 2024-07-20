@@ -1,6 +1,10 @@
 
 def hello_word():
-    print("Hello, World!")
+    message = "Hello, world"
+    print(message)
+
+    message = "kill youself"
+    print(message)
 
 def main():
     hello_word()
