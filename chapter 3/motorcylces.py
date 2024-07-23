@@ -13,6 +13,10 @@ def main():
 
     popped_motorcycles = motorcyles.pop()
     print(popped_motorcycles)
+    length = len(motorcyles)
+    middle = length // 2
+    motorcyles.insert(middle, 'bossman')
+    print(motorcyles)
 
 if __name__ == "__main__":
     main()
